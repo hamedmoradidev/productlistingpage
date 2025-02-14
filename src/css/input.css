@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@font-face {
+    font-family: exo;
+    src: url(../font/Exo2-VariableFont_wght.ttf);
+}
+@theme{
+    --font-exo: "exo", sans-serif; 
+}

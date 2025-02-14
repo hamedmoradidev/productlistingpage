@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/output.css">
+</head>
+<body class="w-full font-exo">
+    <main class="w-full text-white">
+        <div class="bg-[#2d2d2d] h-16 flex items-center justify-between px-[240px]">
+            <img src="src/img/152-1529915_asos-logo.png" alt="" class="h-7">
+            <div class="flex justify-between h-9 w-[600px]">
+                <input id="searchInput" class="border outline-0  h-9 w-[600px] bg-white rounded-4xl text-[#525051] mr-10 px-5" type="text" placeholder="Search for items and brands">
+                <div class="flex justify-between items-center align-middle w-32 h-9">
+                    <img class="h-6" src="src/img/person_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    <img class="h-6" src="src/img/heart_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    <img class="h-6" src="src/img/shopping_bag_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>    
+            </div>
+        </div>
+        <div class="h-14 bg-[#5f5f5f] text-white text-[14px] font-extralight flex items-center justify-items-start px-[240px]">
+            <a href="">Home</a><span class="mx-2">&nbsp;>&nbsp;</span>
+            <a href="">Promotions</a><span class="mx-2">&nbsp;>&nbsp;</span>
+            <a href="">Best seller</a>
+        </div>
+        <div class="bg-[#000000] h-14 text-white flex justify-between items-center px-[240px]">
+            <a href="" class="border-2 px-3 py-1" id="womenLink">WOMEN</a>
+            <div class="flex flex-wrap justify-center items-center w-[400px] font-semibold">
+                <p>PSST! NEW HERE? Get 10% off selected styles!*</p>
+                <p>With code: HIFRIEND</p>    
+            </div>
+            <a href="" class="border-2 px-3 py-1" id="menLink">MEN</a>
+        </div>
+        <div class="flex justify-center items-center font-bold text-3xl h-16 px-[240px] text-black">Best seller</div>
+        <div class="filters h-14 flex items-center bg-[#eeeeee] px-[240px] text-[#5f5f5f]">
+            <div class="w-[250px] h-10 flex justify-center items-center border-[1px] border-[#a8a8a8a8]">
+                <select name="categorySelectOption" class="w-full h-full outline-0" id="categorySelectOption">
+                    <option class="w-full" value="" id="CategoryOpt" disabled selected hidden>Category</option>
+                    <option class="w-full" value="men's clothing" id="mensClothing">men's clothing</option>
+                    <option class="w-full" value="jewelery">jewelery</option>
+                    <option class="w-full" value="electronics">electronics</option>
+                    <option class="w-full" value="women's clothing" id="womensClothing">women's clothing</option>
+                </select>    
+            </div>
+        </div>
+        <div id="productsSection" class="w-full flex flex-wrap border justify-between px-[240px] py-14">
+        </div>
+    </main>
+    <div id="aboutMe" class="flex flex-wrap justify-between w-[200px] h-[200px] items-center fixed right-2 bottom-2 bg-[#2d2d2d] rounded-2xl pr-4 py-4 text-white animate-bounce cursor-pointer opacity-70">
+        <h2 class="w-full text-center text-2xl mb-5">Developed by Hamed Moradi</h2>
+        <div class="flex justify-evenly w-full">
+            <a class="" href="https://www.linkedin.com/in/haamedmoradiidev/"><img class="h-6" src="src/img/linkedin.svg" alt=""></a>
+            <a class="" href="https://github.com/hamedmoradidev"><img class="h-6" src="src/img/github.svg" alt=""></a>
+            <a class="" href="https://instagram.com/hamed.moradi.dev"><img class="h-6" src="src/img/instagram.svg" alt=""></a>    
+        </div>
+    </div>    
+    <script src="script/script.js"></script>
+</body>
+</html>
